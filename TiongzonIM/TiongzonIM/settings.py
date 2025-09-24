@@ -55,7 +55,7 @@ ROOT_URLCONF = 'TiongzonIM.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["templates/app_name"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
